@@ -24,10 +24,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- C:/Users/shibi/Documents/Project/STM/Drivers/ssd1306/ssd1306.h \
- C:/Users/shibi/Documents/Project/STM/Drivers/ssd1306/ssd1306_conf.h \
- C:/Users/shibi/Documents/Project/STM/Drivers/ssd1306/ssd1306_fonts.h \
- C:/Users/shibi/Documents/Project/STM/Drivers/ssd1306/ssd1306.h
+ C:/Muhsin/Master_Codes/Projects/Network-Analyser-and-Jammer/RF_Analyser_STM/Drivers/ssd1306/ssd1306.h \
+ C:/Muhsin/Master_Codes/Projects/Network-Analyser-and-Jammer/RF_Analyser_STM/Drivers/ssd1306/ssd1306_conf.h \
+ C:/Muhsin/Master_Codes/Projects/Network-Analyser-and-Jammer/RF_Analyser_STM/Drivers/ssd1306/ssd1306_fonts.h \
+ C:/Muhsin/Master_Codes/Projects/Network-Analyser-and-Jammer/RF_Analyser_STM/Drivers/ssd1306/ssd1306.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -54,7 +54,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
-C:/Users/shibi/Documents/Project/STM/Drivers/ssd1306/ssd1306.h:
-C:/Users/shibi/Documents/Project/STM/Drivers/ssd1306/ssd1306_conf.h:
-C:/Users/shibi/Documents/Project/STM/Drivers/ssd1306/ssd1306_fonts.h:
-C:/Users/shibi/Documents/Project/STM/Drivers/ssd1306/ssd1306.h:
+C:/Muhsin/Master_Codes/Projects/Network-Analyser-and-Jammer/RF_Analyser_STM/Drivers/ssd1306/ssd1306.h:
+C:/Muhsin/Master_Codes/Projects/Network-Analyser-and-Jammer/RF_Analyser_STM/Drivers/ssd1306/ssd1306_conf.h:
+C:/Muhsin/Master_Codes/Projects/Network-Analyser-and-Jammer/RF_Analyser_STM/Drivers/ssd1306/ssd1306_fonts.h:
+C:/Muhsin/Master_Codes/Projects/Network-Analyser-and-Jammer/RF_Analyser_STM/Drivers/ssd1306/ssd1306.h:

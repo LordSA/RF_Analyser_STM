@@ -61,8 +61,8 @@ all: main-build
 main-build: STM.elf secondary-outputs
 
 # Tool invocations
-STM.elf STM.map: $(OBJS) $(USER_OBJS) C:\Users\shibi\Documents\Project\STM\STM32F103C6TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\shibi\Documents\Project\STM\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM.elf STM.map: $(OBJS) $(USER_OBJS) C:\Muhsin\Master_Codes\Projects\Network-Analyser-and-Jammer\RF_Analyser_STM\STM32F103C6TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Muhsin\Master_Codes\Projects\Network-Analyser-and-Jammer\RF_Analyser_STM\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
